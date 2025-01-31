@@ -1,0 +1,31 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["Notoy"],
+		"generated_with": {
+			"bridge": ["2.7.41"],
+			"dash": ["0.11.7"],
+			"blockbench_item_wizard": ["1.1.0"]
+		}
+	},
+	"header": {
+		"name": "Manzanita by notoy 1.21.50",
+		"description": "una manzana totalmente configurable",
+		"min_engine_version": [1, 21, 0],
+		"uuid": "31289372-4ac4-4df4-a928-4d9f8597a4be",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "a160679a-8e2b-4978-b37e-e4251ac2fdb7",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "78a2054c-3d53-4735-99c1-afe7dfc7314f",
+			"version": [1, 0, 0]
+		}
+	]
+}

@@ -12,7 +12,7 @@ const manzana = {
         regeneracion: {
             nombre: "minecraft:regeneration",
             duracion: 600,
-            amplificador: 3,
+            amplificador: 4,
             particulas: true
         },
         resistencia: {

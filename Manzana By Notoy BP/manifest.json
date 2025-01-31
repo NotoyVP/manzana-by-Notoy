@@ -1,0 +1,40 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": ["Notoy"],
+		"generated_with": {
+			"bridge": ["2.7.41"],
+			"dash": ["0.11.7"],
+			"blockbench_item_wizard": ["1.1.0"]
+		}
+	},
+	"header": {
+		"name": "Manzanita by notoy 1.21.50",
+		"description": "una manzana totalmente configurable",
+		"min_engine_version": [1, 21, 0],
+		"uuid": "78a2054c-3d53-4735-99c1-afe7dfc7314f",
+		"version": [1, 0, 0]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "f52c816f-d94d-44f0-9bcf-5bdd48857fc5",
+			"version": [1, 0, 0]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"uuid": "ca5d4c69-840d-4279-af05-a1eaab8e538f",
+			"entry": "scripts/main.js",
+			"version": [1, 0, 0]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "31289372-4ac4-4df4-a928-4d9f8597a4be",
+			"version": [1, 0, 0]
+		},
+		{"module_name": "@minecraft/server","version": "1.17.0-beta"},
+		{"module_name": "@minecraft/server-ui", "version": "1.4.0-beta"}
+	]
+}
